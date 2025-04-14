@@ -1,0 +1,22 @@
+.cart{
+    width: 300px;
+    height: 200px;
+    background-color:white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0px 5px 5px rgb(230, 229, 229);
+}
+.color{
+    font-size: 30px;
+}
+.color-div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0 auto;
+}
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+}

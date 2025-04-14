@@ -1,0 +1,9 @@
+<div class="wrap">
+    <div class="cart" *ngFor="let cart of carts">
+        <h2>Ismi: {{cart.name}}</h2>
+        <h3>Yoshi: {{cart.age}}</h3>
+       <div class="color-div">
+        <p>Sevimli rangi: </p><p class="color" [style]="{'color': cart.color}">{{cart.color}}</p>
+       </div>
+    </div>
+</div>
